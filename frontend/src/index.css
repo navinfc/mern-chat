@@ -10,19 +10,19 @@ body {
 }
 
 /* dark mode looking scrollbar */
-::-webkit-scrollbar {
+:global::-webkit-scrollbar {
 	width: 8px;
 }
 
-::-webkit-scrollbar-track {
+:global::-webkit-scrollbar-track {
 	background: #555;
 }
 
-::-webkit-scrollbar-thumb {
+:global::-webkit-scrollbar-thumb {
 	background: #121212;
 	border-radius: 5px;
 }
 
-::-webkit-scrollbar-thumb:hover {
+:global::-webkit-scrollbar-thumb:hover {
 	background: #242424;
 }
